@@ -50,3 +50,6 @@ ifeq ($(USE_PARTICLES), TRUE)
   CEXE_sources += Collision.cpp
   CEXE_headers += Collision.H
 endif
+
+CEXE_sources += MyDiffusedIB.cpp
+CEXE_headers += MyDiffusedIB.H
